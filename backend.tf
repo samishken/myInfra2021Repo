@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "dpt-web-data-samboo"
+    bucket = "my-saturday-bucket-samboo"
     key = "main"
     region = "us-east-1"
     dynamodb_table = "samboo"
